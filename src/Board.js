@@ -49,7 +49,7 @@ const Board = () => {
       {isWinner ? (
         <>
          <p>{isWinner} won the game{" "}</p> 
-          <button onClick={handleReplay}>Replay</button>
+          {/* <button onClick={handleReplay}>Replay</button> */}
         </>
       ) : (
         <>
@@ -72,6 +72,7 @@ const Board = () => {
           </div>
         </>
       )}
+       <button onClick={handleReplay} className="replay">Replay</button>
     </div>
   );
 };
