@@ -1,1 +1,1 @@
-url-hhttps://tik-tok-toe-pooja.netlify.app/
+url-https://tik-tok-toe-pooja.netlify.app/
